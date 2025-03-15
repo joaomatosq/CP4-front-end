@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'primaria';
+    src: url(../fonts/KirangHaerang-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'secundaria';
+    src: url(../fonts/JetBrainsMono-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
