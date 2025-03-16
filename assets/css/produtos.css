@@ -18,6 +18,7 @@ body {
 
 header {
     grid-area: header;
+    margin-top: 25px;
 }
 
 header h1 {
@@ -53,6 +54,13 @@ section#moveis h1 {
 
 #footer {
     grid-area: footer;
+    margin-top: 50px;
+}
+
+#carrinho:hover {
+    background-color: lightgreen;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 

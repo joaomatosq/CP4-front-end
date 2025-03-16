@@ -18,6 +18,7 @@ body {
 
 header {
     grid-area: header;
+    margin-top: 25px;
 }
 
 header h1 {
@@ -49,12 +50,18 @@ img#logo {
 
 #card1 {
     grid-area: card1;
+    margin-top: 30px;
 }
 
 #footer {
     grid-area: footer;
 }
 
+#carrinho:hover {
+    background-color: lightgreen;
+    border-radius: 5px;
+    transition: 0.3s;
+}
 
 /* Mobile */
 @media (min-width: 0px) and (max-width: 767px) {
