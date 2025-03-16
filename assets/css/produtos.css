@@ -12,3 +12,218 @@
     font-style: normal;
 }
 
+body {
+    background-color: #EDE8DC;
+}
+
+header {
+    grid-area: header;
+}
+
+header h1 {
+    font-family: "primaria";
+    font-size: 60px;
+}
+
+section#carrosel {
+    grid-area: carrosel;
+}
+
+img#logo {
+    grid-area: logo;
+}
+
+#barra-superior {
+    grid-area: barra-superior;
+}
+
+.carousel slide {
+    grid-area: carrosel;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    font-family: "secundaria";
+    color: #000000;
+}
+
+#card1 {
+    grid-area: card1;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+
+/* Mobile */
+@media (min-width: 0px) and (max-width: 767px) {
+    .container {
+        display: grid;
+        display: block;
+        grid-template-areas: 
+        "header"
+        "barra-superior"
+        "carrosel"
+        "card1"
+        "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        place-items: center;
+        row-gap: 5px;
+    }
+
+    #barra-superior {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #carouselExampleCaptions {
+        margin-top: 3%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+    }
+
+}
+
+
+
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        display: block;
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "barra-superior"
+        "carrosel"
+        "card1"
+        "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        place-items: center;
+        row-gap: 5px;
+    }
+
+    #barra-superior {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #carouselExampleCaptions {
+        margin-top: 3%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+    }
+
+}
+
+
+/* Desktop em diante  */
+ @media (min-width: 1200px) {
+    .container {
+        display: block;
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "barra-superior"
+        "carrosel"
+        "card1"
+        "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        place-items: center;
+        row-gap: 5px;
+    }
+
+    #barra-superior {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #carouselExampleCaptions {
+        margin-top: 3%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+    }
+}
+
+
+.titulo-produtos h1{
+    font-size: 30px;
+    color: #000000;
+}
+
+.destaques{
+    background-color: rgb(145, 145, 145); 
+    width: 900px; 
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.destaques h2{
+    color: white;
+    font-size: 20px;
+}
+
+.roupas{
+    background-color: rgb(145, 145, 145); 
+    width: 900px; 
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.roupas h2{
+    color: white;
+    font-size: 20px;
+}
+
+
+.moveis{
+    background-color: rgb(145, 145, 145); 
+    width: 900px; 
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.moveis h2{
+    color: white;
+    font-size: 20px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+.container-produtos img{
+    height: 300px;
+}
