@@ -34,6 +34,10 @@ img#logo {
     grid-area: logo;
 }
 
+.sizeFormularios {
+    width: 100%;
+}
+
 .formulario {
     color: #212529;
     width: 50%;
@@ -106,6 +110,10 @@ img#logo {
         padding: 10px;
     }
 
+    .sizeFormularios {
+        width: 110%;
+    }
+
 }
 
 /* tablet */
@@ -131,15 +139,15 @@ img#logo {
         align-items: center;
     }
 
-    #carouselExampleCaptions {
-        margin-top: 3%;
-    }
-
     #footer {
         display: flex;
         flex-direction: row;
         gap: 20px;
         padding: 10px;
+    }
+
+    .sizeFormularios {
+        width: 150%;
     }
 
 }
